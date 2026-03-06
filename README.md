@@ -4,22 +4,6 @@ A modern, feature-rich E-Commerce platform built with the MERN stack (MongoDB, E
 
 ![Tech Stack](https://img.shields.io/badge/React-18.2-blue) ![Node.js](https://img.shields.io/badge/Node.js-18+-green) ![MongoDB](https://img.shields.io/badge/MongoDB-7.0-brightgreen)
 
-## 🎯 Project Highlights (For Resume/Interviews)
-
-This project demonstrates:
-
-- ✅ **Full-Stack Development**: Complete MERN stack implementation
-- ✅ **System Design**: Modular architecture with separation of concerns
-- ✅ **Authentication & Authorization**: JWT-based secure authentication
-- ✅ **Advanced Search**: MongoDB Text Search integration for fast and efficient product discovery
-- ✅ **State Management**: React Context API for global state
-- ✅ **API Design**: RESTful API with proper HTTP methods and status codes
-- ✅ **Database Design**: MongoDB schemas with relationships and validation
-- ✅ **Modern UI/UX**: TailwindCSS with animations and responsive design
-- ✅ **Containerization**: Docker setup for easy deployment
-
-## 🚀 Features
-
 ### Frontend (React + Vite + TailwindCSS)
 
 - 🏠 Modern landing page with hero section
@@ -170,81 +154,6 @@ curl -X POST http://localhost:5000/api/products \
 curl "http://localhost:5000/api/search?q=macbook"
 ```
 
-## 💡 Interview Talking Points
 
-### System Design
-
-- **Separation of Concerns**: Routes → Controllers → Models
-- **Middleware Pattern**: Validation, Authentication, Error Handling
-- **Database Indexing**: MongoDB Text Search for efficient product discovery
-
-### Security
-
-- **Password Hashing**: bcrypt with salt rounds
-- **JWT Tokens**: Secure, stateless authentication
-- **Input Validation**: express-validator prevents injection attacks
-
-### Scalability
-
-- **MongoDB Search**: Built-in text indexing eliminates the need for external search engines for this scale
-- **Stateless Auth**: JWT allows horizontal scaling
-- **Docker**: Easy deployment and portability
-
-### Best Practices
-
-- **Environment Variables**: Sensitive data secured
-- **Error Handling**: Centralized error responses
-- **Logging**: Morgan for request tracking
-- **Code Organization**: Modular, maintainable structure
-
-## 🎨 Technologies Explained (For Beginners)
-
-### Backend
-
-- **Express**: Web framework for building APIs
-- **Mongoose**: ODM (Object Data Modeling) for MongoDB
-- **bcryptjs**: Password hashing library
-- **jsonwebtoken**: JWT token generation and verification
-- **express-validator**: Input validation middleware
-- **morgan**: HTTP request logger
-
-### Frontend
-
-- **React**: UI library for building interfaces
-- **Vite**: Fast build tool and dev server
-- **TailwindCSS**: Utility-first CSS framework
-- **React Router**: Client-side routing
-- **Axios**: HTTP client for API calls
-- **Context API**: Global state management
-
-### Infrastructure
-
-- **MongoDB**: NoSQL database with built-in Full-Text Search
-- **Docker**: Containerization platform
-
-## 🚢 Deployment
-
-### Option 1: VPS (DigitalOcean, AWS EC2)
-
-1. Install Docker on server
-2. Copy project files
-3. Run `docker-compose up -d`
-4. Configure domain and SSL
-
-### Option 2: Platform as a Service
-
-- **Frontend**: Vercel, Netlify
-- **Backend**: Railway, Render
-- **Database**: MongoDB Atlas
-
-## 📝 License
-
-MIT License - Feel free to use this project for learning and portfolio purposes.
-
-## 👨‍💻 Author
-
-Built with ❤️ as a resume project for fresher interviews.
-
----
 
 **⭐ If this helped you, please star the repository!**
